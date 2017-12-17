@@ -20,5 +20,6 @@ COPY . /UserManager/app
 EXPOSE 2999
 
 # Serve the app
+
 CMD ["npm", "start"]
 
